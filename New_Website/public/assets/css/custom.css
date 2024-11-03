@@ -1,0 +1,245 @@
+.align_button_sign {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.error-identity {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.elongate {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/*STA DIRETTAMENTE HARDCODATO NELL'HTML*/
+.enrico-cerca {
+    margin-left: -5rem !important;
+}
+
+.enrico-trova {
+    margin-right: -10rem;
+}
+
+.non-disponibile-cart{
+    background-color: gray !important;
+    border: unset !important;
+    border-radius: 50%;
+    cursor: default;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+
+}
+
+.non-disponibile {
+    background-color: gray !important;
+    border: unset !important;
+    cursor: default;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+}
+
+.non-disponibile:hover {
+    color: white;
+    background-color: gray !important;
+    border: unset !important;
+    cursor: default;
+    transition: none;
+}
+
+.carrello-vuoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+}
+
+.carrello-vuoto-text {
+    all: unset;
+    color: black;
+}
+
+.pd-detail__out-of-stock {
+    background-color: rgba(255, 9, 0, 0.14);
+    color: #ff0900;
+}
+
+.btn--e-brand-b-2-animated {
+    color: #ffffff;
+    background-color: #ff003b;
+    border: 2px solid #ff003b;
+    transition: background-color 0.3s linear, border-color 0.3s linear;
+}
+
+.btn--e-brand-b-2-animated:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.submit-button-cart{
+    all: unset;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+.form-submit-cart {
+    position: absolute;
+    bottom: 15px;
+    left: 0px !important;
+    right: 0px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    display: flex !important;
+    /* align-items: center !important;
+    margin-left: 1.8rem !important; */
+    justify-content: center;
+}
+
+.button-add-to-cart {
+    color: #ffffff;
+    background-color: #ff003b;
+    border: 2px solid #ff003b;
+    transition: background-color .3s linear, color .3s linear;
+    cursor: pointer;
+}
+
+.form-padre{
+    /* display: flex !important; */
+    align-items: center;
+    justify-items: center;
+}
+
+.black-color{
+    background-color: #535353 !important;
+    border: 2px solid #535353 !important;
+}
+
+.unset-all-sium{
+    all: unset;
+}
+
+.button-pointer{
+    cursor: pointer;
+}
+
+.filter-custom{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-button{
+    padding: 0.5rem;
+}
+
+.flex-custom-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.account-icon-laterale{
+    line-height: unset !important;
+}
+
+
+
+.col-lg-4-custom{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-lg-9-custom{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.personal-profile-account-container{
+    display: flex !important;
+    flex: 1 !important;
+}
+
+.personal-profile-account{
+    display: flex !important;
+    flex: 1 !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.second-row-card-info-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.badge-stato-ordine{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 5.9375rem;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5rem;
+    padding: 8px 20px 8px 20px;
+    flex-wrap: nowrap;
+}
+
+
+.bottone-ordine-info-list{
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 13px;
+    border-radius: 6px;
+    width: 8rem;
+}
+
+.order-detail-card-product{
+    margin-bottom: 1rem;
+    border-bottom: #eeeeee 2px solid;
+    padding-bottom: 0.30rem;
+}
+
+
+
+.navbar-image-custom-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-image-custom{
+    margin: 0.5rem;
+}
+
+.p-prev i, .p-next i{
+    color: white !important;
+}
+
+.p-prev, .p-next{
+    background-color: #ff003b;
+}
